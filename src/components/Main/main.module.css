@@ -1,0 +1,98 @@
+.main {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: "roboto", sans-serif;
+}
+
+.main .inputDiv {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 50px;
+  background-color: #1f1f1f;
+  outline: none;
+  position: relative;
+}
+
+.main .inputDiv input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.main .inputDiv .icon {
+  position: absolute;
+  right: 15px;
+}
+
+.itemPhonetic {
+  display: grid;
+  margin-top: 12px;
+  flex: 1;
+  text-align: start;
+}
+.itemPhonetic .firstSpan {
+  font-size: 42px;
+}
+
+.itemPhonetic .secondSpan {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1cf8dbcb;
+}
+
+.nothingLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemAudioPhonetic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.playIcon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
+
+.partOfSpeech {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.partOfSpeech h5 {
+  display: flex;
+  align-items: center;
+}
+
+.partOfSpeech .parts {
+  width: 50px;
+  margin: 0;
+}
+
+.parts h5 {
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+ul .definition::marker {
+  color: #1cf8db;
+}

@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.Global {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 15%;
+  min-height: 100vh;
+  max-height: max-content;
+}
+
+.Light {
+  color: black;
+}
+
+.Light ul li::marker {
+  color: black;
+}
+
+.Darken {
+  background-color: #001916;
+  transition: 300ms ease-in-out;
+}
+
+.Light {
+  background-color: #e1e4e6;
+  transition: 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 750px) {
+  .Global {
+    padding: 0px 30px;
+  }
+}
+
+.form-select {
+  background-color: #171717;
+  display: flex;
+  border: 1px solid #5f6368;
+  width: 100%;
+}
+
+
+.DarkenBorder {
+  background-color: #00000052;
+  height: 1px;
+  flex: 1;
+  transition: 300ms ease-in-out;
+}
+
+.LightenBorder{
+  background-color: #1cf8dc;
+  height: 1px;
+  flex: 1;
+  transition: 300ms ease-in-out;
+}
+
+.lightFont{
+  color: rgb(0, 0, 0);
+}
+

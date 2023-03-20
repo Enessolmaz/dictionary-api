@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+
+.themeCircle {
+  transition: 300ms;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+  background-color: #1cf8dbd2;
+  width: 45px;
+  height: 20px;
+  border-radius: 12px;
+  margin-right: 10px;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+.sun-moon {
+  margin-left: 10px;
+}
+
+.selectBox {
+  border: 1px solid rgb(228, 5, 5) !important;
+}
