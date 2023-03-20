@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "./Head.module.css";
 import { MainContext, useContext } from "../../DataContext";
 import { FaBook } from "react-icons/fa";
 import { BsMoon, BsFillSunFill } from "react-icons/bs";
-import { AiOutlineDown } from "react-icons/ai";
 import FontTypeSelect from "./FontType";
 
 const Head = () => {
   const { theme, setTheme } = useContext(MainContext);
-
-
-
-
 
   return (
     <nav>

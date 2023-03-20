@@ -21,8 +21,8 @@ export default function ControlledOpenSelect() {
   return (
     <div>
       <Box sx={{ minWidth: 100, }}>
-        <FormControl fullWidth  sx={{ borderRadius: "50px" }}>
-          <InputLabel sx={{ fontFamily: font, color : theme === "Darken" ? "#1CF8DC" : "#000"}} id="demo-simple-select-label">
+        <FormControl fullWidth sx={{ borderRadius: "50px" }}>
+          <InputLabel sx={{ fontFamily: font, color: theme === "Darken" ? "#1CF8DC" : "#000" }} id="demo-simple-select-label">
             {font}
           </InputLabel>
           <Select
@@ -33,12 +33,13 @@ export default function ControlledOpenSelect() {
             sx={{ fontFamily: font, color: theme === "Darken" ? "#1CF8DC" : "#000" }}
             onChange={handleChange}
           >
-            {fonts.map((item) => {
+            {fonts.map((item, i) => {
               return (
                 <MenuItem
                   onClick={() => setFont(item.name)}
                   sx={{ fontFamily: item.name }}
                   value={item.value}
+                  key={i}
                 >
                   {item.name}
                 </MenuItem>

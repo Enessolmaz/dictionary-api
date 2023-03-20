@@ -17,7 +17,6 @@ const Main = () => {
     );
     const res = await data.json();
     setFetchData(res[0]);
-    console.log(res)
   };
 
   const inputValueFunction = (e) => {
